@@ -1,0 +1,69 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     cbo19@miami.edu
+website:   http://chuckobaze.com
+-----------------------------------------------------------------------------*/
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------
+
+a:link, a:visited, a:hover, a:focus, a:active
+
+*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* line 29, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 35, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 43, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.wrapper {
+  border: solid 1px red;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 50, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+nav.header {
+  background-color: #7B9A70;
+}
+
+/* line 54, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.nav-container {
+  border: solid 1px red;
+}
+
+/* line 58, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right {
+  float: right;
+}
+
+@media (max-width: 575px) {
+  /* line 66, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+  div.nav-container {
+    border: solid 1px red;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
