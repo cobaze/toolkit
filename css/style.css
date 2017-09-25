@@ -23,9 +23,11 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
 }
 
-/* line 35, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 37, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -34,36 +36,171 @@ html {
   box-sizing: inherit;
 }
 
-/* line 43, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 45, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0rem !important;
+}
+
+/* line 49, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+/* line 54, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.wrapper {
   border: solid 1px red;
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
+  overflow: auto;
 }
 
-/* line 50, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 62, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 nav.header {
   background-color: #7B9A70;
+  margin-bottom: 2rem;
 }
 
-/* line 54, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
-div.nav-container {
-  border: solid 1px red;
+/* line 67, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+a.page-header {
+  color: #ffffff !important;
+  font-size: 1.8rem;
 }
 
-/* line 58, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 72, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.navbar-brand {
+  float: left !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 81, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 ul.nav-right {
+  float: right !important;
+  font-size: 1.6rem;
+}
+
+/* line 85, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right li {
+  float: right !important;
+}
+
+/* line 88, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right li a {
+  color: #ffffff !important;
+  float: right !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 96, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.first-section {
+  overflow: auto;
+  margin-bottom: 5em;
+  padding: 0 2rem 0 2rem;
+}
+
+/* line 102, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section {
+  overflow: auto;
+  margin-bottom: 2rem;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+/* line 112, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section h1 {
+  float: left;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 120, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section img {
+  float: left;
+  margin-right: 1.5rem;
+  width: 5rem;
+}
+
+/* line 127, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-div {
+  float: left;
+  padding: 0 !important;
+}
+
+/* line 131, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-div p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  font-size: 1.6rem;
+}
+
+/* line 140, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img, .right-img {
+  overflow: auto;
+  display: inline;
+  float: left;
+}
+
+/* line 145, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img p, .right-img p {
+  float: none;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* line 151, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img img, .right-img img {
+  float: left;
+  width: 25rem;
+  margin-bottom: 0.5rem !important;
+}
+
+/* line 158, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img img {
+  margin-right: 2rem;
+  width: 24.63rem;
+}
+
+/* line 164, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.right-div {
   float: right;
+  padding: 0 !important;
+}
+
+/* line 168, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.right-div p {
+  font-size: 2rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 575px) {
-  /* line 66, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+  /* line 184, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
   div.nav-container {
     border: solid 1px red;
     margin-left: 0;
     margin-right: 0;
   }
+  /*
+	.left-img img{
+		
+	}
+	
+	.right-img img{
+		
+	}
+*/
 }
 
 /*# sourceMappingURL=../css/style.map */
