@@ -69,7 +69,6 @@ body{
 }
 
 div.wrapper{
-	border: $border red;
 	margin: 0 auto;
 	padding-left: 0;
 	padding-right: 0;
@@ -92,12 +91,14 @@ a.page-header{
 }
 
 div.nav-container{
+	overflow: auto;
 	
 }
 
 ul.nav-right{
 	float: right !important;
 	font-size: 1.6rem;
+	overflow: auto;
 	
 	li{
 		float: right !important;
@@ -255,7 +256,7 @@ div.third-section{
 }
 
 div.bp-container{
-	border: $border red;
+	
 }
 
 div.bp-header{
@@ -331,7 +332,6 @@ div.fifth-section{
 @media (max-width: 575px) {
 
 	div.nav-container{
-		border: $border red;
 		margin-left: 0;
 		margin-right: 0;
 	}
