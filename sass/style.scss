@@ -75,6 +75,8 @@ div.wrapper{
 // 	overflow: auto;
 }
 
+/* Nav Style Starts Here */
+
 nav.header{
 	background-color: $um-green;
 	margin-bottom: 2rem;
@@ -110,6 +112,10 @@ ul.nav-right{
 		}
 	}
 }
+
+/* Nav Style Ends Here */
+
+/* Publicly Owned Land Starts Here */
 
 div.first-section{
 	@include section-style;
@@ -315,6 +321,7 @@ div.right-list, div.left-list{
 	}
 }
 
+/*
 div.fifth-section{
 	@include section-style;
 	
@@ -327,6 +334,128 @@ div.fifth-section{
 		@include body-font;
 	}
 }
+*/
+
+/* Publicly Owned Land Ends Here */
+
+/* NOAH Styles Start Here */
+
+div.noah-mid-div{
+	padding: 0 !important;
+	
+	p{
+		font-size: $font-size;
+		color: $gray;
+		line-height: 1.7;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+// 		margin-bottom: 3rem !important;
+	}
+	
+	h2{
+		text-align: center;
+		margin-bottom: 3rem !important;
+	}
+	
+	img{
+		margin: 0 auto;
+		width: 65rem;
+		display: block;
+	}
+	
+/*
+	p{
+		text-align: center;
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
+*/
+}
+
+div.noah-section{
+	
+	margin-bottom: 6rem !important;
+	
+	h2{
+		text-align: center;
+		font-weight: 600;
+	}
+}
+
+div.noah-chart-div{
+	padding: 0 !important;
+	
+	p:first-child{
+		font-size: $font-size;
+		color: $gray;
+		line-height: 1.7;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+ 		margin-bottom: 3rem !important;
+	}
+	
+	h2{
+		text-align: center;
+		margin-bottom: 3rem !important;
+	}
+	
+	img{
+		margin: 0 auto;
+		width: 75rem;
+		display: block;
+		margin-bottom: 3rem;
+	}
+	
+	p:last-child{
+		font-size: $font-size;
+		color: $gray;
+		line-height: 1.7;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+ 		margin-bottom: 3rem !important;
+ 		margin-top: 3rem;
+	}
+}
+
+img.noah-map{
+	display: block;
+	margin: 0 auto;
+	width: 55rem;
+	margin-top: 3rem;
+}
+
+/* NOAH Styles Ends Here */
+
+/* Footer Style Starts Here */
+
+
+div.footer{
+	background: url(../imgs/footer.png) no-repeat left center $um-green;
+	padding-bottom: 5rem;
+	box-sizing: border-box;
+	height: 10rem;
+}
+
+div.last-footer{
+	height: 10rem;
+	
+	p{
+		font-family: 'Pontano Sans', sans-serif;
+		color: #ffffff;
+		display: inline;
+		line-height: 16rem;
+		font-size: 1.2rem;
+		
+		a{
+			text-decoration: underline;
+			color: #ffffff;
+			margin-right: 1rem;
+		}
+	}
+}
+
+
+/* Footer Style Ends Here */
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575px) {

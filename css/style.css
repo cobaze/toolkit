@@ -1,1 +1,505 @@
-html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-family:'Open Sans', sans-serif;font-size:10px}*,*:before,*:after{margin:0;padding:0;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}h1,h2,h3,h4,h5,h6,p{margin-bottom:0rem !important}body{font-family:'Open Sans', sans-serif;font-size:10px}div.wrapper{margin:0 auto;padding-left:0;padding-right:0}nav.header{background-color:#7B9A70;margin-bottom:2rem}a.page-header{color:#fff !important;font-size:1.8rem}.navbar-brand{float:left !important;font-family:'Open Sans', sans-serif}div.nav-container{overflow:auto}ul.nav-right{float:right !important;font-size:1.6rem;overflow:auto}ul.nav-right li{float:right !important}ul.nav-right li a{color:#fff !important;float:right !important;font-family:'Open Sans', sans-serif}div.first-section{overflow:auto;margin-bottom:5em;padding:0 2rem 0 2rem}div.tf-section{overflow:auto;margin-bottom:4rem;-webkit-flex:1;flex:1;display:-webkit-flex;-webkit-align-items:center;display:flex;align-items:center}div.tf-section h1{float:left;font-size:2rem;line-height:2.5rem;font-weight:600;font-family:'Open Sans', sans-serif}div.tf-section img{float:left;margin-right:1.5rem;width:5rem}.left-div{float:left;padding:0 !important}.left-div p{font-family:'Open Sans', sans-serif;text-align:center;margin-bottom:1rem !important;font-size:1.6rem}.left-img,.right-img{overflow:auto;display:inline;float:left}.left-img p,.right-img p{float:none;text-align:center;font-size:1rem}.left-img img,.right-img img{float:left;width:19rem;margin-bottom:0.5rem !important}.left-img img{margin-right:2rem;width:18.69rem;margin-left:7rem}.right-div{float:right;padding:0 !important}.right-div p{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif}div.second-section{overflow:auto;margin-bottom:5em;padding:0 2rem 0 2rem}div.ts-section h2{text-align:center;margin-bottom:2rem !important;font-weight:600}div.ts-section p{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif;text-align:center;width:75rem;max-width:100%;margin:0 auto;margin-bottom:3rem !important}div.supp-section{margin-bottom:3rem;overflow:auto}div.supp-section p{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif;line-height:1.2}div.supp-section img{width:2rem}div.supp-160{overflow:auto}div.supp-160 img{width:5rem}div.supp-2498{overflow:auto}div.supp-2498 img{width:8rem}p.source{font-size:small;text-align:center;margin:0 auto;color:#848484}div.third-section{overflow:auto;margin-bottom:5em;padding:0 2rem 0 2rem;padding:0}div.bp-header{-webkit-flex:1;flex:1;display:-webkit-flex;-webkit-align-items:center;display:flex;align-items:center;background-color:#7B9A70;color:#fff}div.bp-header h2{margin:0 auto}div.bp-text p{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif}div.fourth-section{overflow:auto;margin-bottom:5em;padding:0 2rem 0 2rem}div.letter-list{padding-left:2rem}div.letter-section h2{text-align:center;margin-bottom:4rem !important;font-weight:600}div.right-list p,div.left-list p{text-align:center;font-size:1.5em;margin-bottom:1.5rem !important}div.right-list ul li,div.left-list ul li{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif;font-size:1.6rem}div.fifth-section{overflow:auto;margin-bottom:5em;padding:0 2rem 0 2rem}div.fifth-section h2{text-align:center;margin-bottom:2rem !important}div.fifth-section P{font-size:1.7rem;color:#848484;line-height:1.7;font-weight:300;font-family:'Open Sans', sans-serif}@media (max-width: 575px){div.nav-container{margin-left:0;margin-right:0}}
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     cbo19@miami.edu
+website:   http://chuckobaze.com
+-----------------------------------------------------------------------------*/
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------
+
+a:link, a:visited, a:hover, a:focus, a:active
+
+*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* =Style Starts Here
+-----------------------------------------------------------------------------*/
+/* line 46, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+/* line 54, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 62, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0rem !important;
+}
+
+/* line 66, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+/* line 71, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.wrapper {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Nav Style Starts Here */
+/* line 80, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+nav.header {
+  background-color: #7B9A70;
+  margin-bottom: 2rem;
+}
+
+/* line 85, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+a.page-header {
+  color: #ffffff !important;
+  font-size: 1.8rem;
+}
+
+/* line 90, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.navbar-brand {
+  float: left !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 95, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.nav-container {
+  overflow: auto;
+}
+
+/* line 100, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right {
+  float: right !important;
+  font-size: 1.6rem;
+  overflow: auto;
+}
+
+/* line 105, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right li {
+  float: right !important;
+}
+
+/* line 108, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+ul.nav-right li a {
+  color: #ffffff !important;
+  float: right !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav Style Ends Here */
+/* Publicly Owned Land Starts Here */
+/* line 120, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.first-section {
+  overflow: auto;
+  margin-bottom: 5em;
+  padding: 0 2rem 0 2rem;
+}
+
+/* line 124, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section {
+  overflow: auto;
+  margin-bottom: 4rem;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+/* line 134, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section h1 {
+  float: left;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 142, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.tf-section img {
+  float: left;
+  margin-right: 1.5rem;
+  width: 5rem;
+}
+
+/* line 149, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-div {
+  float: left;
+  padding: 0 !important;
+}
+
+/* line 153, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-div p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  font-size: 1.6rem;
+}
+
+/* line 162, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img, .right-img {
+  overflow: auto;
+  display: inline;
+  float: left;
+}
+
+/* line 167, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img p, .right-img p {
+  float: none;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* line 173, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img img, .right-img img {
+  float: left;
+  width: 19rem;
+  margin-bottom: 0.5rem !important;
+}
+
+/* line 180, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.left-img img {
+  margin-right: 2rem;
+  width: 18.69rem;
+  margin-left: 7rem;
+}
+
+/* line 186, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.right-div {
+  float: right;
+  padding: 0 !important;
+}
+
+/* line 190, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+.right-div p {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 199, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.second-section {
+  overflow: auto;
+  margin-bottom: 5em;
+  padding: 0 2rem 0 2rem;
+}
+
+/* line 205, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.ts-section h2 {
+  text-align: center;
+  margin-bottom: 2rem !important;
+  font-weight: 600;
+}
+
+/* line 211, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.ts-section p {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 75rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3rem !important;
+}
+
+/* line 221, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-section {
+  margin-bottom: 3rem;
+  overflow: auto;
+}
+
+/* line 225, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-section p {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+}
+
+/* line 230, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-section img {
+  width: 2rem;
+}
+
+/* line 236, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-160 {
+  overflow: auto;
+}
+
+/* line 239, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-160 img {
+  width: 5rem;
+}
+
+/* line 244, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-2498 {
+  overflow: auto;
+}
+
+/* line 247, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.supp-2498 img {
+  width: 8rem;
+}
+
+/* line 252, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+p.source {
+  font-size: small;
+  text-align: center;
+  margin: 0 auto;
+  color: #848484;
+}
+
+/* line 259, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.third-section {
+  overflow: auto;
+  margin-bottom: 5em;
+  padding: 0 2rem 0 2rem;
+  padding: 0;
+}
+
+/* line 268, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.bp-header {
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  background-color: #7B9A70;
+  color: #ffffff;
+}
+
+/* line 278, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.bp-header h2 {
+  margin: 0 auto;
+}
+
+/* line 285, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.bp-text p {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 290, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.fourth-section {
+  overflow: auto;
+  margin-bottom: 5em;
+  padding: 0 2rem 0 2rem;
+}
+
+/* line 294, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.letter-list {
+  padding-left: 2rem;
+}
+
+/* line 300, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.letter-section h2 {
+  text-align: center;
+  margin-bottom: 4rem !important;
+  font-weight: 600;
+}
+
+/* line 309, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.right-list p, div.left-list p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1.5rem !important;
+}
+
+/* line 317, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.right-list ul li, div.left-list ul li {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+/*
+div.fifth-section{
+	@include section-style;
+	
+	h2{
+		text-align: center;
+		margin-bottom: 2rem !important;
+	}
+	
+	P{
+		@include body-font;
+	}
+}
+*/
+/* Publicly Owned Land Ends Here */
+/* NOAH Styles Start Here */
+/* line 343, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-mid-div {
+  padding: 0 !important;
+  /*
+	p{
+		text-align: center;
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
+*/
+}
+
+/* line 346, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-mid-div p {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 355, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-mid-div h2 {
+  text-align: center;
+  margin-bottom: 3rem !important;
+}
+
+/* line 360, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-mid-div img {
+  margin: 0 auto;
+  width: 65rem;
+  display: block;
+}
+
+/* line 375, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-section {
+  margin-bottom: 6rem !important;
+}
+
+/* line 379, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-section h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* line 385, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-chart-div {
+  padding: 0 !important;
+}
+
+/* line 388, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-chart-div p:first-child {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem !important;
+}
+
+/* line 397, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-chart-div h2 {
+  text-align: center;
+  margin-bottom: 3rem !important;
+}
+
+/* line 402, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-chart-div img {
+  margin: 0 auto;
+  width: 75rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+/* line 409, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.noah-chart-div p:last-child {
+  font-size: 1.7rem;
+  color: #848484;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem !important;
+  margin-top: 3rem;
+}
+
+/* line 420, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+img.noah-map {
+  display: block;
+  margin: 0 auto;
+  width: 55rem;
+  margin-top: 3rem;
+}
+
+/* NOAH Styles Ends Here */
+/* Footer Style Starts Here */
+/* line 432, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.footer {
+  background: url(../imgs/footer.png) no-repeat left center #7B9A70;
+  padding-bottom: 5rem;
+  box-sizing: border-box;
+  height: 10rem;
+}
+
+/* line 439, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.last-footer {
+  height: 10rem;
+}
+
+/* line 442, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.last-footer p {
+  font-family: 'Pontano Sans', sans-serif;
+  color: #ffffff;
+  display: inline;
+  line-height: 16rem;
+  font-size: 1.2rem;
+}
+
+/* line 449, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+div.last-footer p a {
+  text-decoration: underline;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+/* Footer Style Ends Here */
+@media (max-width: 575px) {
+  /* line 463, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+  div.nav-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /*
+	.left-img img{
+		
+	}
+	
+	.right-img img{
+		
+	}
+*/
+}
+
+/*# sourceMappingURL=../css/style.map */
