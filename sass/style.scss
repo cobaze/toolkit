@@ -61,6 +61,7 @@ html {
 
 h1,h2,h3,h4,h5,h6,p{
 	margin-bottom: 0rem !important;
+	color: $gray !important;
 }
 
 body{
@@ -101,6 +102,7 @@ ul.nav-right{
 	float: right !important;
 	font-size: 1.6rem;
 	overflow: auto;
+	margin-left: 55rem;
 	
 	li{
 		float: right !important;
@@ -277,6 +279,7 @@ div.bp-header{
     
     h2{
 	    margin: 0 auto;
+	    color: #ffffff !important;
     }
 }
 
@@ -430,7 +433,7 @@ img.noah-map{
 
 
 div.footer{
-	background: url(../imgs/footer.png) no-repeat left center $um-green;
+	background: url(../images/footer.png) no-repeat left center $um-green;
 	padding-bottom: 5rem;
 	box-sizing: border-box;
 	height: 10rem;
@@ -441,14 +444,14 @@ div.last-footer{
 	
 	p{
 		font-family: 'Pontano Sans', sans-serif;
-		color: #ffffff;
+		color: #ffffff !important;
 		display: inline;
 		line-height: 16rem;
 		font-size: 1.2rem;
 		
 		a{
 			text-decoration: underline;
-			color: #ffffff;
+			color: #ffffff !important;
 			margin-right: 1rem;
 		}
 	}
