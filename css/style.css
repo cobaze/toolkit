@@ -86,7 +86,7 @@ ul.nav-right {
   float: right !important;
   font-size: 1.6rem;
   overflow: auto;
-  margin-left: 55rem;
+  margin-left: 65rem;
 }
 
 /* line 107, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
@@ -101,16 +101,25 @@ ul.nav-right li a {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* line 118, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+#toolbar-container,
+.tab-toolbar,
+.tab-fill,
+.tab-widget,
+.horizontalLabels {
+  display: none !important;
+}
+
 /* Nav Style Ends Here */
 /* Publicly Owned Land Starts Here */
-/* line 122, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 130, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.first-section {
   overflow: auto;
   margin-bottom: 5em;
   padding: 0 2rem 0 2rem;
 }
 
-/* line 126, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 134, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.tf-section {
   overflow: auto;
   margin-bottom: 4rem;
@@ -124,7 +133,7 @@ div.tf-section {
   align-items: center;
 }
 
-/* line 136, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 144, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.tf-section h1 {
   float: left;
   font-size: 2rem;
@@ -133,20 +142,20 @@ div.tf-section h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 144, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 152, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.tf-section img {
   float: left;
   margin-right: 1.5rem;
   width: 5rem;
 }
 
-/* line 151, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 159, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-div {
   float: left;
   padding: 0 !important;
 }
 
-/* line 155, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 163, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-div p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -154,41 +163,41 @@ div.tf-section img {
   font-size: 1.6rem;
 }
 
-/* line 164, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 172, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-img, .right-img {
   overflow: auto;
   display: inline;
   float: left;
 }
 
-/* line 169, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 177, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-img p, .right-img p {
   float: none;
   text-align: center;
   font-size: 1rem;
 }
 
-/* line 175, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 183, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-img img, .right-img img {
   float: left;
   width: 19rem;
   margin-bottom: 0.5rem !important;
 }
 
-/* line 182, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 190, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .left-img img {
   margin-right: 2rem;
   width: 18.69rem;
   margin-left: 7rem;
 }
 
-/* line 188, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 196, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .right-div {
   float: right;
   padding: 0 !important;
 }
 
-/* line 192, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 200, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 .right-div p {
   font-size: 1.7rem;
   color: #848484;
@@ -197,21 +206,21 @@ div.tf-section img {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 201, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 209, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.second-section {
   overflow: auto;
   margin-bottom: 5em;
   padding: 0 2rem 0 2rem;
 }
 
-/* line 207, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 215, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.ts-section h2 {
   text-align: center;
   margin-bottom: 2rem !important;
   font-weight: 600;
 }
 
-/* line 213, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 221, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.ts-section p {
   font-size: 1.7rem;
   color: #848484;
@@ -225,13 +234,13 @@ div.ts-section p {
   margin-bottom: 3rem !important;
 }
 
-/* line 223, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 231, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-section {
   margin-bottom: 3rem;
   overflow: auto;
 }
 
-/* line 227, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 235, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-section p {
   font-size: 1.7rem;
   color: #848484;
@@ -241,32 +250,32 @@ div.supp-section p {
   line-height: 1.2;
 }
 
-/* line 232, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 240, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-section img {
   width: 2rem;
 }
 
-/* line 238, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 246, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-160 {
   overflow: auto;
 }
 
-/* line 241, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 249, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-160 img {
   width: 5rem;
 }
 
-/* line 246, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 254, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-2498 {
   overflow: auto;
 }
 
-/* line 249, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 257, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.supp-2498 img {
   width: 8rem;
 }
 
-/* line 254, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 262, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 p.source {
   font-size: small;
   text-align: center;
@@ -274,7 +283,7 @@ p.source {
   color: #848484;
 }
 
-/* line 261, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 269, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.third-section {
   overflow: auto;
   margin-bottom: 5em;
@@ -282,7 +291,7 @@ div.third-section {
   padding: 0;
 }
 
-/* line 270, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 278, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.bp-header {
   -webkit-flex: 1;
   flex: 1;
@@ -296,13 +305,13 @@ div.bp-header {
   color: #ffffff;
 }
 
-/* line 280, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 288, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.bp-header h2 {
   margin: 0 auto;
   color: #ffffff !important;
 }
 
-/* line 288, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 296, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.bp-text p {
   font-size: 1.7rem;
   color: #848484;
@@ -311,33 +320,33 @@ div.bp-text p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 293, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 301, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.fourth-section {
   overflow: auto;
   margin-bottom: 5em;
   padding: 0 2rem 0 2rem;
 }
 
-/* line 297, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 305, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.letter-list {
   padding-left: 2rem;
 }
 
-/* line 303, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 311, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.letter-section h2 {
   text-align: center;
   margin-bottom: 4rem !important;
   font-weight: 600;
 }
 
-/* line 312, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 320, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.right-list p, div.left-list p {
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 1.5rem !important;
 }
 
-/* line 320, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 328, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.right-list ul li, div.left-list ul li {
   font-size: 1.7rem;
   color: #848484;
@@ -363,7 +372,7 @@ div.fifth-section{
 */
 /* Publicly Owned Land Ends Here */
 /* NOAH Styles Start Here */
-/* line 346, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 354, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-mid-div {
   padding: 0 !important;
   /*
@@ -375,7 +384,7 @@ div.noah-mid-div {
 */
 }
 
-/* line 349, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 357, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-mid-div p {
   font-size: 1.7rem;
   color: #848484;
@@ -384,36 +393,36 @@ div.noah-mid-div p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 358, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 366, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-mid-div h2 {
   text-align: center;
   margin-bottom: 3rem !important;
 }
 
-/* line 363, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 371, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-mid-div img {
   margin: 0 auto;
   width: 65rem;
   display: block;
 }
 
-/* line 378, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 386, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-section {
   margin-bottom: 6rem !important;
 }
 
-/* line 382, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 390, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-section h2 {
   text-align: center;
   font-weight: 600;
 }
 
-/* line 388, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 396, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-chart-div {
   padding: 0 !important;
 }
 
-/* line 391, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 399, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-chart-div p:first-child {
   font-size: 1.7rem;
   color: #848484;
@@ -423,13 +432,13 @@ div.noah-chart-div p:first-child {
   margin-bottom: 3rem !important;
 }
 
-/* line 400, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 408, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-chart-div h2 {
   text-align: center;
   margin-bottom: 3rem !important;
 }
 
-/* line 405, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 413, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-chart-div img {
   margin: 0 auto;
   width: 75rem;
@@ -437,7 +446,7 @@ div.noah-chart-div img {
   margin-bottom: 3rem;
 }
 
-/* line 412, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 420, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.noah-chart-div p:last-child {
   font-size: 1.7rem;
   color: #848484;
@@ -448,17 +457,17 @@ div.noah-chart-div p:last-child {
   margin-top: 3rem;
 }
 
-/* line 423, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 431, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 img.noah-map {
   display: block;
   margin: 0 auto;
-  width: 55rem;
+  width: 75rem;
   margin-top: 3rem;
 }
 
 /* NOAH Styles Ends Here */
 /* Footer Style Starts Here */
-/* line 435, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 443, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.footer {
   background: url(../images/footer.png) no-repeat left center #7B9A70;
   padding-bottom: 5rem;
@@ -466,12 +475,12 @@ div.footer {
   height: 10rem;
 }
 
-/* line 442, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 450, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.last-footer {
   height: 10rem;
 }
 
-/* line 445, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 453, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.last-footer p {
   font-family: 'Pontano Sans', sans-serif;
   color: #ffffff !important;
@@ -480,7 +489,7 @@ div.last-footer p {
   font-size: 1.2rem;
 }
 
-/* line 452, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+/* line 460, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
 div.last-footer p a {
   text-decoration: underline;
   color: #ffffff !important;
@@ -489,7 +498,7 @@ div.last-footer p a {
 
 /* Footer Style Ends Here */
 @media (max-width: 575px) {
-  /* line 466, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
+  /* line 474, /Users/chuckobazemac/Documents/toolkit/sass/style.scss */
   div.nav-container {
     margin-left: 0;
     margin-right: 0;

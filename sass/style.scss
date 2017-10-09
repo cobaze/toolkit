@@ -102,7 +102,7 @@ ul.nav-right{
 	float: right !important;
 	font-size: 1.6rem;
 	overflow: auto;
-	margin-left: 55rem;
+	margin-left: 65rem;
 	
 	li{
 		float: right !important;
@@ -113,6 +113,14 @@ ul.nav-right{
 			font-family: 'Open Sans', sans-serif;
 		}
 	}
+}
+
+#toolbar-container,
+.tab-toolbar,
+.tab-fill,
+.tab-widget,
+.horizontalLabels{
+	display: none !important;
 }
 
 /* Nav Style Ends Here */
@@ -423,7 +431,7 @@ div.noah-chart-div{
 img.noah-map{
 	display: block;
 	margin: 0 auto;
-	width: 55rem;
+	width: 75rem;
 	margin-top: 3rem;
 }
 
